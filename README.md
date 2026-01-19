@@ -38,7 +38,7 @@ ProjetML_Pipeline/
 ├── DatasetZuMa/                 # Données du banc d’essai hydraulique
 ├── ETL_Pipeline/                # Scripts de préparation des données
 ├── models/                     # Modèles sauvegardés (après entraînement)
-├── app_streamlit.py            # Tableau de bord interactif
+├── project/project-churn/src/app_streamlit.py            # Tableau de bord interactif
 ├── predict.py                  # Fonction de prédiction à partir d’un modèle entrainé
 ├── requirements.txt            # Dépendances Python
 └── README.md                   # Ce fichier
@@ -101,7 +101,7 @@ pip install -r requirements.txt
 L’interface principale est développée avec **Streamlit**.
 
 ```sh
-streamlit run app_streamlit.py
+streamlit run project-churn/src/app_streamlit.py
 ```
 
 Une page web s’ouvrira automatiquement (souvent à l’adresse [http://localhost:8501](http://localhost:8501)).
